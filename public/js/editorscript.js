@@ -1,3 +1,6 @@
+ alert("Hello");
+         
+/*
 var identifier = null;
 var tracker = { 
                ansic:"#include<stdio.h>\n#include<conio.h>\nvoid main(){\n\n}",
@@ -24,7 +27,7 @@ function onChangeTabs(identifier) {
     
     else if(identifier == "cpp_11")
         {
-          alert("Hello");
+         // alert("Hello");
           //  editor.setValue(tracker.cpp11);
             //editor.getSession().setMode("https://cdn.jsdelivr.net/ace/1.2.6/min/mode-c_cpp.js");
         }
@@ -53,3 +56,4 @@ function swap_values(current_tab,last_tab) {
 
 
 
+*/
