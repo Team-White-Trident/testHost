@@ -2,7 +2,7 @@
 
 
        $(document).ready(function(){
-                                     //alert("in func");
+                                  
                                   $('a[data-toggle="tab"]').on('shown.bs.tab', function(e){
                                                                                                
                                                                                 var currentTab = $(e.target).attr("id"); // get current tab
@@ -60,7 +60,7 @@ function onChangeTabs(identifier) {
 
 
 function swap_values(current_tab,last_tab) {
- 
+    alert("hell down under");
     identifier = current_tab;
          alert(identifier);
     onChangeTabs(identifier);
