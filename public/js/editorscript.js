@@ -1,6 +1,6 @@
- alert("Hello");
+// alert("Hello");
          
-/*
+
 var identifier = null;
 var tracker = { 
                ansic:"#include<stdio.h>\n#include<conio.h>\nvoid main(){\n\n}",
@@ -56,4 +56,4 @@ function swap_values(current_tab,last_tab) {
 
 
 
-*/
+
