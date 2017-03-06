@@ -1,5 +1,16 @@
 // alert("Hello");
-         
+
+
+       $(document).ready(function(){
+                                     //alert("in func");
+                                  $('a[data-toggle="tab"]').on('shown.bs.tab', function(e){
+                                                                                               
+                                                                                var currentTab = $(e.target).attr("id"); // get current tab
+                                                                                var lastTab = $(e.relatedTarget).attr("id"); // get last tab
+                                                                                swap_values(currentTab,lastTab);
+                                                                                             });
+                                   });
+
 
 var identifier = null;
 var tracker = { 
