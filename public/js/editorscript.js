@@ -19,25 +19,25 @@ function onChangeTabs(identifier) {
     if(identifier == "ansi_c")
         {
             editor.setValue(tracker.ansic);
-            editor.getSession().setMode("ace/mode/c_cpp");
+            editor.getSession().setMode("https://cdn.jsdelivr.net/ace/1.2.6/min/mode-c_cpp.js");
         }
     
     else if(identifier == "cpp_11")
         {
             editor.setValue(tracker.cpp11);
-            editor.getSession().setMode("ace/mode/c_cpp");
+            editor.getSession().setMode("https://cdn.jsdelivr.net/ace/1.2.6/min/mode-c_cpp.js");
         }
     else if(identifier == "java__")
         {
             //var paragraph = document.getElementById("java");
             //var text = paragraph.textContent ? paragraph.textContent : paragraph.innerText;
             editor.setValue(tracker.java);
-            editor.getSession().setMode("ace/mode/java");
+            editor.getSession().setMode("https://cdn.jsdelivr.net/ace/1.2.6/min/mode-java.js");
         }
     else if(identifier == "python__")
         {
             editor.setValue(tracker.python);
-            editor.getSession().setMode("ace/mode/python");
+            editor.getSession().setMode("https://cdn.jsdelivr.net/ace/1.2.6/min/mode-python.js");
         }
     
 }
