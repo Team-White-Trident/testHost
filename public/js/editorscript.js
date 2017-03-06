@@ -1,17 +1,4 @@
 // alert("Hello");
-
-
-       $(document).ready(function(){
-                                  
-                                  $('a[data-toggle="tab"]').on('shown.bs.tab', function(e){
-                                                                                               
-                                                                                var currentTab = $(e.target).attr("id"); // get current tab
-                                                                                var lastTab = $(e.relatedTarget).attr("id"); // get last tab
-                                                                                swap_values(currentTab,lastTab);
-                                                                                             });
-                                   });
-
-
 var identifier = null;
 var tracker = { 
                ansic:"#include<stdio.h>\n#include<conio.h>\nvoid main(){\n\n}",
@@ -68,6 +55,14 @@ function swap_values(current_tab,last_tab) {
      
 }
 
-
+$(document).ready(function(){
+                                  
+                                  $('a[data-toggle="tab"]').on('shown.bs.tab', function(e){
+                                                                                               
+                                                                                var currentTab = $(e.target).attr("id"); // get current tab
+                                                                                var lastTab = $(e.relatedTarget).attr("id"); // get last tab
+                                                                                swap_values(currentTab,lastTab);
+                                                                                             });
+                                   });
 
 
