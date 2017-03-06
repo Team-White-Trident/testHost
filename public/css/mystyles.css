@@ -65,3 +65,23 @@ body{
     min-height: 300px;
 }
 
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    min-height: 400px;
+}
+
+    
+.tab-content > #editor { 
+    position: relative;
+    top:0px;
+	right:0;
+	left:0;
+	bottom:0;
+	width:500px;
+	height: 380px;
+    }
+   
+    
