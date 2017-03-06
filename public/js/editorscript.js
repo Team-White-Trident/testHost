@@ -11,11 +11,11 @@ var tracker = {
 
 var editor = ace.edit("editor");
 
-editor.setTheme("ace/theme/tomorrow");
+//editor.setTheme("ace/theme/tomorrow");
 document.getElementById('editor').style.fontSize='12px';
 editor.setShowPrintMargin(false);
 editor.setValue(tracker.ansic);
-editor.getSession().setMode("ace/mode/c_cpp");
+//editor.getSession().setMode("ace/mode/c_cpp");
 
 function onChangeTabs(identifier) {
     
