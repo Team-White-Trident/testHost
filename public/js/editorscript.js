@@ -10,12 +10,13 @@ var tracker = {
 
 var editor = ace.edit("editor");
 
-//editor.setTheme("ace/theme/tomorrow");
+editor.setTheme("https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/theme-monokai.js");
 document.getElementById('editor').style.fontSize='12px';
 editor.setShowPrintMargin(false);
 editor.setValue(tracker.ansic);
-//editor.getSession().setMode("ace/mode/c_cpp");
+editor.getSession().setMode("https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/mode-c_cpp.js");
 alert("before function");
+/*
 function onChangeTabs(identifier) {
     
     if(identifier == "ansi_c")
