@@ -1,6 +1,6 @@
-alert("Hello");
-/*
 var identifier = null;
+alert(identifier);
+/*
 var tracker = { 
                ansic:"#include<stdio.h>\n#include<conio.h>\nvoid main(){\n\n}",
                cpp11:"#include<iostream>\nusing namespace std;\nint main(){\nreturn 0;\n}",
