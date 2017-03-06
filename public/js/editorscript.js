@@ -24,8 +24,9 @@ function onChangeTabs(identifier) {
     
     else if(identifier == "cpp_11")
         {
-            editor.setValue(tracker.cpp11);
-            editor.getSession().setMode("https://cdn.jsdelivr.net/ace/1.2.6/min/mode-c_cpp.js");
+          alert("Hello");
+          //  editor.setValue(tracker.cpp11);
+            //editor.getSession().setMode("https://cdn.jsdelivr.net/ace/1.2.6/min/mode-c_cpp.js");
         }
     else if(identifier == "java__")
         {
