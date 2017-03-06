@@ -1,6 +1,6 @@
 var identifier = null;
 alert(identifier);
-/*
+
 var tracker = { 
                ansic:"#include<stdio.h>\n#include<conio.h>\nvoid main(){\n\n}",
                cpp11:"#include<iostream>\nusing namespace std;\nint main(){\nreturn 0;\n}",
@@ -15,7 +15,7 @@ document.getElementById('editor').style.fontSize='12px';
 editor.setShowPrintMargin(false);
 editor.setValue(tracker.ansic);
 //editor.getSession().setMode("ace/mode/c_cpp");
-
+alert("before function");
 function onChangeTabs(identifier) {
     
     if(identifier == "ansi_c")
