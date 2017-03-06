@@ -56,7 +56,7 @@ function swap_values(current_tab,last_tab) {
          
      
 }
-
+*/
 $(document).ready(function(){
                                   
                                   $('a[data-toggle="tab"]').on('shown.bs.tab', function(e){
@@ -67,4 +67,4 @@ $(document).ready(function(){
                                                                                              });
                                    });
 
-*/
+
